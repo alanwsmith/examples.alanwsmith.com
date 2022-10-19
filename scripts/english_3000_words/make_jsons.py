@@ -20,7 +20,6 @@ with open('source.txt') as _in:
             continue
         source_words.append(word)
 
-
 with open(f"{output_dir}/2944-english-words.json", "w") as _out:
     data = {
         "description": "2944 words, all lowercase, from the 3000 most common English with words with capital and dashes removed",
@@ -69,7 +68,6 @@ with open(f"{output_dir}/2246-english-words--5-plus-characters.json", "w") as _o
     json.dump(data, _out, sort_keys=True, indent=2)
 
 
-
 with open(f"{output_dir}/478-english-words--5-characters-exactly.json", "w") as _out:
     words = []
     for word in source_words:
@@ -77,6 +75,19 @@ with open(f"{output_dir}/478-english-words--5-characters-exactly.json", "w") as 
             words.append(word.lower())
     data = {
         "description": "478 words, all lowercase, from the 3000 most common English words filtered to words with exactly five characters",
+        "source": "https://www.ef.edu/english-resources/english-vocabulary/top-3000-words/",
+        "words": words,
+    }
+    json.dump(data, _out, sort_keys=True, indent=2)
+
+
+with open(f"{output_dir}/1459-english-words--4-5-or-6-characters-exactly.json", "w") as _out:
+    words = []
+    for word in source_words:
+        if len(word) >= 4 and len(word) <= 6:
+            words.append(word.lower())
+    data = {
+        "description": "1459 words, all lowercase, from the 3000 most common English words filtered to words with exactly four, five, or six characters",
         "source": "https://www.ef.edu/english-resources/english-vocabulary/top-3000-words/",
         "words": words,
     }
