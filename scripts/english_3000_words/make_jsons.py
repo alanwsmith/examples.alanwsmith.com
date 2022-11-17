@@ -15,7 +15,9 @@ skip_words = [
     'grandfather', 'herself', 'himself', 'his', 'her', 'kill',
     'killing', 'lawsuit', 'marry', 'married', 'minor', 'minority',
     'murder', 'ourselves',  'pregnant', 'pregnancy', 'sex', 'sexual',
-    'he', 'she'
+    'he', 'she', 'alcohol', 'anger', 'angry', 'anxiety', 'virus',
+    'birth', 'prison', 'toilet', 'flesh', 'illegal', 'ethics',
+    'rifle', 'funeral', 'lawyer', 'breast',
     ]
 
 with open('source.txt') as _in:
@@ -41,7 +43,7 @@ data = {
 
 
 with open(f"{output_dir}/english-words--full-set--2hlcotri63ds/data.", "w") as _out:
-    data['description'] = "English Words: all lengths [2943 words]"
+    data['description'] = "English Words: all lengths"
     data['data'] = source_words
     json.dump(data, _out, sort_keys=True, indent=2)
 
@@ -51,7 +53,7 @@ with open(f"{output_dir}/english-words--4-letters--2hlcmyrqbg8v/data.json", "w")
     for word in source_words:
         if len(word) == 4:
             words.append(word.lower())
-    data['description'] = "English Words: 4 letters [500 words]"
+    data['description'] = "English Words: 4 letters"
     data['data'] = words
     json.dump(data, _out, sort_keys=True, indent=2)
 
@@ -61,7 +63,7 @@ with open(f"{output_dir}/english-words--4-or-more-letters--2hlct3fqpkdw/data.jso
     for word in source_words:
         if len(word) >= 4:
             words.append(word.lower())
-    data['description'] = "English Words: 4 or more letters [2746 words]"
+    data['description'] = "English Words: 4 or more letters"
     data['data'] = words
     json.dump(data, _out, sort_keys=True, indent=2)
 
@@ -71,7 +73,7 @@ with open(f"{output_dir}/english-words--4-5-or-6-letters--2hldesbvshhx/data.json
     for word in source_words:
         if len(word) >= 4 and len(word) <= 6:
             words.append(word.lower())
-    data['description'] = "English Words: 4, 5, or 6 letters [1459 words]"
+    data['description'] = "English Words: 4, 5, or 6 letters"
     data['data'] = words
     json.dump(data, _out, sort_keys=True, indent=2)
 
@@ -81,7 +83,7 @@ with open(f"{output_dir}/english-words--5-letters--2hlcpalckmnz/data.json", "w")
     for word in source_words:
         if len(word) == 5:
             words.append(word.lower())
-    data['description'] = "English Words: 5 letters [478 words]"
+    data['description'] = "English Words: 5 letters"
     data['data'] = words
     json.dump(data, _out, sort_keys=True, indent=2)
 
@@ -91,7 +93,7 @@ with open(f"{output_dir}/english-words--5-or-more-letters--2hlcv30h2hjp/data.jso
     for word in source_words:
         if len(word) >= 5:
             words.append(word.lower())
-    data['description'] = "English Words: 5 or more letters [2246 words]"
+    data['description'] = "English Words: 5 or more letters"
     data['data'] = words
     json.dump(data, _out, sort_keys=True, indent=2)
 
@@ -102,7 +104,7 @@ with open(f"{output_dir}/english-words--5-6-or-7-letters--2hddgazwinfz/data.json
     for word in source_words:
         if len(word) >= 5 and len(word) <= 7:
             words.append(word.lower())
-    data['description'] = "English Words: 5, 6, or 7 letters [1378 words]"
+    data['description'] = "English Words: 5, 6, or 7 letters"
     data['data'] = words
     json.dump(data, _out, sort_keys=True, indent=2)
 
@@ -112,7 +114,7 @@ with open(f"{output_dir}/english-words--6-letters--2hdhlkihvslr/data.json", "w")
     for word in source_words:
         if len(word) >= 6 and len(word) <= 6:
             words.append(word.lower())
-    data['description'] = "English Words: 6 letters [475 words]"
+    data['description'] = "English Words: 6 letters"
     data['data'] = words
     json.dump(data, _out, sort_keys=True, indent=2)
 
@@ -122,7 +124,7 @@ with open(f"{output_dir}/english-words--6-or-7-letters--2hdhopsjy4gz/data.json",
     for word in source_words:
         if len(word) >= 6 and len(word) <= 7:
             words.append(word.lower())
-    data['description'] = "English Words: 6 or 7 letters [902 words]"
+    data['description'] = "English Words: 6 or 7 letters"
     data['data'] = words
     json.dump(data, _out, sort_keys=True, indent=2)
 
@@ -132,7 +134,17 @@ with open(f"{output_dir}/english-words--6-7-or-8-letters--2hdib8vr7syk/data.json
     for word in source_words:
         if len(word) >= 6 and len(word) <= 8:
             words.append(word.lower())
-    data['description'] = "English Words: 6, 7, or 8 letters [1199 words]"
+    data['description'] = "English Words: 6, 7, or 8 letters"
+    data['data'] = words
+    json.dump(data, _out, sort_keys=True, indent=2)
+
+
+with open(f"{output_dir}/english-words--6-or-more-letters--2hegrr8eflot/data.json", "w") as _out:
+    words = []
+    for word in source_words:
+        if len(word) >= 6 and len(word) <= 8:
+            words.append(word.lower())
+    data['description'] = "English Words: 6 or more letters"
     data['data'] = words
     json.dump(data, _out, sort_keys=True, indent=2)
 

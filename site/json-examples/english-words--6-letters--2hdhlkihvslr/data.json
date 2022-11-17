@@ -65,7 +65,6 @@
     "bottle",
     "bottom",
     "branch",
-    "breast",
     "breath",
     "bridge",
     "bright",
@@ -156,7 +155,6 @@
     "entire",
     "escape",
     "estate",
-    "ethics",
     "ethnic",
     "evolve",
     "exceed",
@@ -234,7 +232,6 @@
     "killer",
     "latter",
     "launch",
-    "lawyer",
     "leader",
     "league",
     "legacy",
@@ -317,7 +314,6 @@
     "prefer",
     "pretty",
     "priest",
-    "prison",
     "profit",
     "prompt",
     "proper",
@@ -477,6 +473,6 @@
     "writer",
     "yellow"
   ],
-  "description": "English Words: 6 letters [475 words]",
+  "description": "English Words: 6 letters",
   "source": "https://www.ef.edu/english-resources/english-vocabulary/top-3000-words/"
 }
