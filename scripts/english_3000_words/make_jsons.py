@@ -17,7 +17,11 @@ skip_words = [
     'murder', 'ourselves',  'pregnant', 'pregnancy', 'sex', 'sexual',
     'he', 'she', 'alcohol', 'anger', 'angry', 'anxiety', 'virus',
     'birth', 'prison', 'toilet', 'flesh', 'illegal', 'ethics',
-    'rifle', 'funeral', 'lawyer', 'breast',
+    'rifle', 'funeral', 'lawyer', 'breast', 'cousin', 'disagree', 
+    'bathroom', 'testing', 'period', 'religion', 'sister', 'brother', 
+    'priest', 'testify', 'finance', 'bedroom', 'football', 'manager', 
+    'racial', 'tissue', 'thanks', 'stroke', 'teacher', 'marriage', 
+
     ]
 
 with open('source.txt') as _in:
