@@ -1,0 +1,36 @@
+{
+  "description": "NATO Phonetic Alphabet: letters as keys",
+  "source": "https://www.google.com/search?q=javascript+key+value+name+of+thing&oq=javascript+key+value+name+of+thing&aqs=chrome..69i57.10996j0j9&sourceid=chrome&ie=UTF-8",
+  "_note": "Please don't use this as an API. I'm posting these so you can pull them down and work with them that way",
+  "data": {
+    "a": "alfa",
+    "b": "bravo",
+    "c": "charlie",
+    "d": "delta",
+    "e": "echo",
+    "f": "foxtrot",
+    "g": "golf",
+    "h": "hotel",
+    "i": "india",
+    "j": "juliett",
+    "k": "kilo",
+    "l": "lima",
+    "m": "mike",
+    "n": "november",
+    "o": "oscar",
+    "p": "papa",
+    "q": "quebec",
+    "r": "romeo",
+    "s": "sierra",
+    "t": "tango",
+    "u": "uniform",
+    "v": "victor",
+    "w": "whiskey",
+    "x": "xray",
+    "y": "yankee",
+    "z": "zulu"
+  }
+}
+
+
+

@@ -1,7 +1,6 @@
 {
-  "description": "478 words, all lowercase, from the 3000 most common English words filtered to words with exactly five characters",
-  "source": "https://www.ef.edu/english-resources/english-vocabulary/top-3000-words/",
-  "words": [
+  "_note": "Please don't use this as an API. I'm posting these so you can pull them down and work with them that way",
+  "data": [
     "about",
     "above",
     "abuse",
@@ -22,9 +21,7 @@
     "along",
     "alter",
     "among",
-    "anger",
     "angle",
-    "angry",
     "apart",
     "apple",
     "apply",
@@ -45,7 +42,6 @@
     "being",
     "below",
     "bench",
-    "birth",
     "black",
     "blade",
     "blame",
@@ -154,7 +150,6 @@
     "final",
     "first",
     "flame",
-    "flesh",
     "float",
     "floor",
     "focus",
@@ -230,7 +225,6 @@
     "lunch",
     "major",
     "maker",
-    "marry",
     "match",
     "maybe",
     "mayor",
@@ -238,7 +232,6 @@
     "metal",
     "meter",
     "might",
-    "minor",
     "model",
     "money",
     "month",
@@ -313,7 +306,6 @@
     "refer",
     "relax",
     "reply",
-    "rifle",
     "right",
     "river",
     "rough",
@@ -451,7 +443,6 @@
     "usual",
     "value",
     "video",
-    "virus",
     "visit",
     "vital",
     "voice",
@@ -480,5 +471,7 @@
     "young",
     "yours",
     "youth"
-  ]
+  ],
+  "description": "English Words: 5 letters",
+  "source": "https://www.ef.edu/english-resources/english-vocabulary/top-3000-words/"
 }

@@ -1,7 +1,6 @@
 {
-  "description": "500 words, all lowercase, from the 3000 most common English words filtered to words with exactly four characters",
-  "source": "https://www.ef.edu/english-resources/english-vocabulary/top-3000-words/",
-  "words": [
+  "_note": "Please don't use this as an API. I'm posting these so you can pull them down and work with them that way",
+  "data": [
     "able",
     "acid",
     "aide",
@@ -154,7 +153,6 @@
     "gear",
     "gene",
     "gift",
-    "girl",
     "give",
     "glad",
     "goal",
@@ -205,7 +203,6 @@
     "just",
     "keep",
     "kick",
-    "kill",
     "kind",
     "king",
     "kiss",
@@ -246,7 +243,6 @@
     "mail",
     "main",
     "make",
-    "male",
     "mall",
     "many",
     "mark",
@@ -502,5 +498,7 @@
     "yell",
     "your",
     "zone"
-  ]
+  ],
+  "description": "English Words: 4 letters",
+  "source": "https://www.ef.edu/english-resources/english-vocabulary/top-3000-words/"
 }
