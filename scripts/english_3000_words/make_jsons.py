@@ -21,6 +21,7 @@ skip_words = [
     'bathroom', 'testing', 'period', 'religion', 'sister', 'brother', 
     'priest', 'testify', 'finance', 'bedroom', 'football', 'manager', 
     'racial', 'tissue', 'thanks', 'stroke', 'teacher', 'marriage', 
+    'activist', 'affair', 'stupid', 'arrest', 'threat'
 
     ]
 
