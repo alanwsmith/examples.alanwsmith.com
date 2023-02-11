@@ -20,8 +20,8 @@ skip_words = [
     'rifle', 'funeral', 'lawyer', 'breast', 'cousin', 'disagree', 
     'bathroom', 'testing', 'period', 'religion', 'sister', 'brother', 
     'priest', 'testify', 'finance', 'bedroom', 'football', 'manager', 
-    'racial', 'tissue', 'thanks', 'stroke', 'teacher', 'marriage', 
-    'activist', 'affair', 'stupid', 'arrest', 'threat'
+    'racial', 'tissue', 'thanks', 'stroke', 'teacher', 'marriage',  
+    'activist', 'affair', 'stupid', 'arrest', 'threat', 'violence',
 
     ]
 
